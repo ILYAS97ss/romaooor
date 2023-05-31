@@ -1,0 +1,16 @@
+
+# Comment out or remove the argparse section
+# parser = argparse.ArgumentParser()
+# parser.add_argument("--data", type=int, default=10, help="data sample nums")
+# parser.add_argument("--max_iter", type=int, default=5000, help="iter max value")
+# parser.add_argument("--hidden_layer", type=int, default=30, help="hidden nums")
+# parser.add_argument("--j_value", type=int, default=3, help="a_{j}")
+# parser.add_argument("--lr", type=float, default=0.001, help="learning rate")
+# args = parser.parse_args()
+
+# Assign default values directly
+data_nums = 10
+n_iter_max = 5000
+hidden_num = 30
+output_param = 3
+lr = 0.001
